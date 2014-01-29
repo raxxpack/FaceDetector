@@ -1,0 +1,489 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5BC1F1AF189958BA00E11A42 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5BC1F1AE189958BA00E11A42 /* Foundation.framework */; };
+		5BC1F1B1189958BA00E11A42 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5BC1F1B0189958BA00E11A42 /* CoreGraphics.framework */; };
+		5BC1F1B3189958BA00E11A42 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5BC1F1B2189958BA00E11A42 /* UIKit.framework */; };
+		5BC1F1B9189958BA00E11A42 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5BC1F1B7189958BA00E11A42 /* InfoPlist.strings */; };
+		5BC1F1BB189958BA00E11A42 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BC1F1BA189958BA00E11A42 /* main.m */; };
+		5BC1F1BF189958BA00E11A42 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BC1F1BE189958BA00E11A42 /* AppDelegate.m */; };
+		5BC1F1C2189958BA00E11A42 /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5BC1F1C0189958BA00E11A42 /* Main_iPhone.storyboard */; };
+		5BC1F1C5189958BA00E11A42 /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5BC1F1C3189958BA00E11A42 /* Main_iPad.storyboard */; };
+		5BC1F1C8189958BA00E11A42 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BC1F1C7189958BA00E11A42 /* ViewController.m */; };
+		5BC1F1CA189958BA00E11A42 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5BC1F1C9189958BA00E11A42 /* Images.xcassets */; };
+		5BC1F1D1189958BA00E11A42 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5BC1F1D0189958BA00E11A42 /* XCTest.framework */; };
+		5BC1F1D2189958BA00E11A42 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5BC1F1AE189958BA00E11A42 /* Foundation.framework */; };
+		5BC1F1D3189958BA00E11A42 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5BC1F1B2189958BA00E11A42 /* UIKit.framework */; };
+		5BC1F1DB189958BA00E11A42 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5BC1F1D9189958BA00E11A42 /* InfoPlist.strings */; };
+		5BC1F1DD189958BA00E11A42 /* raxxFaceDetectorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BC1F1DC189958BA00E11A42 /* raxxFaceDetectorTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5BC1F1D4189958BA00E11A42 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5BC1F1A3189958BA00E11A42 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5BC1F1AA189958BA00E11A42;
+			remoteInfo = raxxFaceDetector;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5BC1F1AB189958BA00E11A42 /* raxxFaceDetector.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = raxxFaceDetector.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5BC1F1AE189958BA00E11A42 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		5BC1F1B0189958BA00E11A42 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		5BC1F1B2189958BA00E11A42 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		5BC1F1B6189958BA00E11A42 /* raxxFaceDetector-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "raxxFaceDetector-Info.plist"; sourceTree = "<group>"; };
+		5BC1F1B8189958BA00E11A42 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		5BC1F1BA189958BA00E11A42 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5BC1F1BC189958BA00E11A42 /* raxxFaceDetector-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "raxxFaceDetector-Prefix.pch"; sourceTree = "<group>"; };
+		5BC1F1BD189958BA00E11A42 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		5BC1F1BE189958BA00E11A42 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		5BC1F1C1189958BA00E11A42 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
+		5BC1F1C4189958BA00E11A42 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
+		5BC1F1C6189958BA00E11A42 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		5BC1F1C7189958BA00E11A42 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		5BC1F1C9189958BA00E11A42 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		5BC1F1CF189958BA00E11A42 /* raxxFaceDetectorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = raxxFaceDetectorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5BC1F1D0189958BA00E11A42 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		5BC1F1D8189958BA00E11A42 /* raxxFaceDetectorTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "raxxFaceDetectorTests-Info.plist"; sourceTree = "<group>"; };
+		5BC1F1DA189958BA00E11A42 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		5BC1F1DC189958BA00E11A42 /* raxxFaceDetectorTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = raxxFaceDetectorTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5BC1F1A8189958BA00E11A42 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5BC1F1B1189958BA00E11A42 /* CoreGraphics.framework in Frameworks */,
+				5BC1F1B3189958BA00E11A42 /* UIKit.framework in Frameworks */,
+				5BC1F1AF189958BA00E11A42 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5BC1F1CC189958BA00E11A42 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5BC1F1D1189958BA00E11A42 /* XCTest.framework in Frameworks */,
+				5BC1F1D3189958BA00E11A42 /* UIKit.framework in Frameworks */,
+				5BC1F1D2189958BA00E11A42 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5BC1F1A2189958BA00E11A42 = {
+			isa = PBXGroup;
+			children = (
+				5BC1F1B4189958BA00E11A42 /* raxxFaceDetector */,
+				5BC1F1D6189958BA00E11A42 /* raxxFaceDetectorTests */,
+				5BC1F1AD189958BA00E11A42 /* Frameworks */,
+				5BC1F1AC189958BA00E11A42 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5BC1F1AC189958BA00E11A42 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5BC1F1AB189958BA00E11A42 /* raxxFaceDetector.app */,
+				5BC1F1CF189958BA00E11A42 /* raxxFaceDetectorTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5BC1F1AD189958BA00E11A42 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5BC1F1AE189958BA00E11A42 /* Foundation.framework */,
+				5BC1F1B0189958BA00E11A42 /* CoreGraphics.framework */,
+				5BC1F1B2189958BA00E11A42 /* UIKit.framework */,
+				5BC1F1D0189958BA00E11A42 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5BC1F1B4189958BA00E11A42 /* raxxFaceDetector */ = {
+			isa = PBXGroup;
+			children = (
+				5BC1F1BD189958BA00E11A42 /* AppDelegate.h */,
+				5BC1F1BE189958BA00E11A42 /* AppDelegate.m */,
+				5BC1F1C0189958BA00E11A42 /* Main_iPhone.storyboard */,
+				5BC1F1C3189958BA00E11A42 /* Main_iPad.storyboard */,
+				5BC1F1C6189958BA00E11A42 /* ViewController.h */,
+				5BC1F1C7189958BA00E11A42 /* ViewController.m */,
+				5BC1F1C9189958BA00E11A42 /* Images.xcassets */,
+				5BC1F1B5189958BA00E11A42 /* Supporting Files */,
+			);
+			path = raxxFaceDetector;
+			sourceTree = "<group>";
+		};
+		5BC1F1B5189958BA00E11A42 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5BC1F1B6189958BA00E11A42 /* raxxFaceDetector-Info.plist */,
+				5BC1F1B7189958BA00E11A42 /* InfoPlist.strings */,
+				5BC1F1BA189958BA00E11A42 /* main.m */,
+				5BC1F1BC189958BA00E11A42 /* raxxFaceDetector-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5BC1F1D6189958BA00E11A42 /* raxxFaceDetectorTests */ = {
+			isa = PBXGroup;
+			children = (
+				5BC1F1DC189958BA00E11A42 /* raxxFaceDetectorTests.m */,
+				5BC1F1D7189958BA00E11A42 /* Supporting Files */,
+			);
+			path = raxxFaceDetectorTests;
+			sourceTree = "<group>";
+		};
+		5BC1F1D7189958BA00E11A42 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5BC1F1D8189958BA00E11A42 /* raxxFaceDetectorTests-Info.plist */,
+				5BC1F1D9189958BA00E11A42 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5BC1F1AA189958BA00E11A42 /* raxxFaceDetector */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5BC1F1E0189958BA00E11A42 /* Build configuration list for PBXNativeTarget "raxxFaceDetector" */;
+			buildPhases = (
+				5BC1F1A7189958BA00E11A42 /* Sources */,
+				5BC1F1A8189958BA00E11A42 /* Frameworks */,
+				5BC1F1A9189958BA00E11A42 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = raxxFaceDetector;
+			productName = raxxFaceDetector;
+			productReference = 5BC1F1AB189958BA00E11A42 /* raxxFaceDetector.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5BC1F1CE189958BA00E11A42 /* raxxFaceDetectorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5BC1F1E3189958BA00E11A42 /* Build configuration list for PBXNativeTarget "raxxFaceDetectorTests" */;
+			buildPhases = (
+				5BC1F1CB189958BA00E11A42 /* Sources */,
+				5BC1F1CC189958BA00E11A42 /* Frameworks */,
+				5BC1F1CD189958BA00E11A42 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5BC1F1D5189958BA00E11A42 /* PBXTargetDependency */,
+			);
+			name = raxxFaceDetectorTests;
+			productName = raxxFaceDetectorTests;
+			productReference = 5BC1F1CF189958BA00E11A42 /* raxxFaceDetectorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5BC1F1A3189958BA00E11A42 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "Rahim Mitha";
+				TargetAttributes = {
+					5BC1F1CE189958BA00E11A42 = {
+						TestTargetID = 5BC1F1AA189958BA00E11A42;
+					};
+				};
+			};
+			buildConfigurationList = 5BC1F1A6189958BA00E11A42 /* Build configuration list for PBXProject "raxxFaceDetector" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5BC1F1A2189958BA00E11A42;
+			productRefGroup = 5BC1F1AC189958BA00E11A42 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5BC1F1AA189958BA00E11A42 /* raxxFaceDetector */,
+				5BC1F1CE189958BA00E11A42 /* raxxFaceDetectorTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5BC1F1A9189958BA00E11A42 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5BC1F1C5189958BA00E11A42 /* Main_iPad.storyboard in Resources */,
+				5BC1F1CA189958BA00E11A42 /* Images.xcassets in Resources */,
+				5BC1F1C2189958BA00E11A42 /* Main_iPhone.storyboard in Resources */,
+				5BC1F1B9189958BA00E11A42 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5BC1F1CD189958BA00E11A42 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5BC1F1DB189958BA00E11A42 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5BC1F1A7189958BA00E11A42 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5BC1F1C8189958BA00E11A42 /* ViewController.m in Sources */,
+				5BC1F1BF189958BA00E11A42 /* AppDelegate.m in Sources */,
+				5BC1F1BB189958BA00E11A42 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5BC1F1CB189958BA00E11A42 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5BC1F1DD189958BA00E11A42 /* raxxFaceDetectorTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5BC1F1D5189958BA00E11A42 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5BC1F1AA189958BA00E11A42 /* raxxFaceDetector */;
+			targetProxy = 5BC1F1D4189958BA00E11A42 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5BC1F1B7189958BA00E11A42 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5BC1F1B8189958BA00E11A42 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		5BC1F1C0189958BA00E11A42 /* Main_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5BC1F1C1189958BA00E11A42 /* Base */,
+			);
+			name = Main_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		5BC1F1C3189958BA00E11A42 /* Main_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5BC1F1C4189958BA00E11A42 /* Base */,
+			);
+			name = Main_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		5BC1F1D9189958BA00E11A42 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5BC1F1DA189958BA00E11A42 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5BC1F1DE189958BA00E11A42 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5BC1F1DF189958BA00E11A42 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5BC1F1E1189958BA00E11A42 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "raxxFaceDetector/raxxFaceDetector-Prefix.pch";
+				INFOPLIST_FILE = "raxxFaceDetector/raxxFaceDetector-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		5BC1F1E2189958BA00E11A42 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "raxxFaceDetector/raxxFaceDetector-Prefix.pch";
+				INFOPLIST_FILE = "raxxFaceDetector/raxxFaceDetector-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		5BC1F1E4189958BA00E11A42 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/raxxFaceDetector.app/raxxFaceDetector";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "raxxFaceDetector/raxxFaceDetector-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "raxxFaceDetectorTests/raxxFaceDetectorTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		5BC1F1E5189958BA00E11A42 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/raxxFaceDetector.app/raxxFaceDetector";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "raxxFaceDetector/raxxFaceDetector-Prefix.pch";
+				INFOPLIST_FILE = "raxxFaceDetectorTests/raxxFaceDetectorTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5BC1F1A6189958BA00E11A42 /* Build configuration list for PBXProject "raxxFaceDetector" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5BC1F1DE189958BA00E11A42 /* Debug */,
+				5BC1F1DF189958BA00E11A42 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5BC1F1E0189958BA00E11A42 /* Build configuration list for PBXNativeTarget "raxxFaceDetector" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5BC1F1E1189958BA00E11A42 /* Debug */,
+				5BC1F1E2189958BA00E11A42 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		5BC1F1E3189958BA00E11A42 /* Build configuration list for PBXNativeTarget "raxxFaceDetectorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5BC1F1E4189958BA00E11A42 /* Debug */,
+				5BC1F1E5189958BA00E11A42 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5BC1F1A3189958BA00E11A42 /* Project object */;
+}
