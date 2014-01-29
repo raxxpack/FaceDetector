@@ -10,4 +10,6 @@
 
 @interface UIImage ()
 
+- (UIView*)markFaces:(UIImageView *)image; 
+
 @end

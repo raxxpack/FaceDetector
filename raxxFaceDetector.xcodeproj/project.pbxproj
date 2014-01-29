@@ -22,6 +22,10 @@
 		5BC1F1D3189958BA00E11A42 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5BC1F1B2189958BA00E11A42 /* UIKit.framework */; };
 		5BC1F1DB189958BA00E11A42 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5BC1F1D9189958BA00E11A42 /* InfoPlist.strings */; };
 		5BC1F1DD189958BA00E11A42 /* raxxFaceDetectorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BC1F1DC189958BA00E11A42 /* raxxFaceDetectorTests.m */; };
+		5BC1F1E7189958D800E11A42 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5BC1F1E6189958D800E11A42 /* QuartzCore.framework */; };
+		5BC1F1E9189958E100E11A42 /* CoreImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5BC1F1E8189958E100E11A42 /* CoreImage.framework */; };
+		5BC1F1ED18995F0600E11A42 /* facedetectionpic.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5BC1F1EC18995F0600E11A42 /* facedetectionpic.jpg */; };
+		5BC1F1F1189960DC00E11A42 /* UIImage+raxxFaceDetection.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BC1F1F0189960DC00E11A42 /* UIImage+raxxFaceDetection.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +59,12 @@
 		5BC1F1D8189958BA00E11A42 /* raxxFaceDetectorTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "raxxFaceDetectorTests-Info.plist"; sourceTree = "<group>"; };
 		5BC1F1DA189958BA00E11A42 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		5BC1F1DC189958BA00E11A42 /* raxxFaceDetectorTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = raxxFaceDetectorTests.m; sourceTree = "<group>"; };
+		5BC1F1E6189958D800E11A42 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		5BC1F1E8189958E100E11A42 /* CoreImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreImage.framework; path = System/Library/Frameworks/CoreImage.framework; sourceTree = SDKROOT; };
+		5BC1F1EC18995F0600E11A42 /* facedetectionpic.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = facedetectionpic.jpg; sourceTree = "<group>"; };
+		5BC1F1EE1899600600E11A42 /* UIImage_faceDetection.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UIImage_faceDetection.h; sourceTree = "<group>"; };
+		5BC1F1EF189960DC00E11A42 /* UIImage+raxxFaceDetection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+raxxFaceDetection.h"; sourceTree = "<group>"; };
+		5BC1F1F0189960DC00E11A42 /* UIImage+raxxFaceDetection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+raxxFaceDetection.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +72,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5BC1F1E9189958E100E11A42 /* CoreImage.framework in Frameworks */,
+				5BC1F1E7189958D800E11A42 /* QuartzCore.framework in Frameworks */,
 				5BC1F1B1189958BA00E11A42 /* CoreGraphics.framework in Frameworks */,
 				5BC1F1B3189958BA00E11A42 /* UIKit.framework in Frameworks */,
 				5BC1F1AF189958BA00E11A42 /* Foundation.framework in Frameworks */,
@@ -103,6 +115,8 @@
 		5BC1F1AD189958BA00E11A42 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				5BC1F1E8189958E100E11A42 /* CoreImage.framework */,
+				5BC1F1E6189958D800E11A42 /* QuartzCore.framework */,
 				5BC1F1AE189958BA00E11A42 /* Foundation.framework */,
 				5BC1F1B0189958BA00E11A42 /* CoreGraphics.framework */,
 				5BC1F1B2189958BA00E11A42 /* UIKit.framework */,
@@ -114,6 +128,7 @@
 		5BC1F1B4189958BA00E11A42 /* raxxFaceDetector */ = {
 			isa = PBXGroup;
 			children = (
+				5BC1F1EC18995F0600E11A42 /* facedetectionpic.jpg */,
 				5BC1F1BD189958BA00E11A42 /* AppDelegate.h */,
 				5BC1F1BE189958BA00E11A42 /* AppDelegate.m */,
 				5BC1F1C0189958BA00E11A42 /* Main_iPhone.storyboard */,
@@ -122,6 +137,9 @@
 				5BC1F1C7189958BA00E11A42 /* ViewController.m */,
 				5BC1F1C9189958BA00E11A42 /* Images.xcassets */,
 				5BC1F1B5189958BA00E11A42 /* Supporting Files */,
+				5BC1F1EE1899600600E11A42 /* UIImage_faceDetection.h */,
+				5BC1F1EF189960DC00E11A42 /* UIImage+raxxFaceDetection.h */,
+				5BC1F1F0189960DC00E11A42 /* UIImage+raxxFaceDetection.m */,
 			);
 			path = raxxFaceDetector;
 			sourceTree = "<group>";
@@ -233,6 +251,7 @@
 			files = (
 				5BC1F1C5189958BA00E11A42 /* Main_iPad.storyboard in Resources */,
 				5BC1F1CA189958BA00E11A42 /* Images.xcassets in Resources */,
+				5BC1F1ED18995F0600E11A42 /* facedetectionpic.jpg in Resources */,
 				5BC1F1C2189958BA00E11A42 /* Main_iPhone.storyboard in Resources */,
 				5BC1F1B9189958BA00E11A42 /* InfoPlist.strings in Resources */,
 			);
@@ -256,6 +275,7 @@
 				5BC1F1C8189958BA00E11A42 /* ViewController.m in Sources */,
 				5BC1F1BF189958BA00E11A42 /* AppDelegate.m in Sources */,
 				5BC1F1BB189958BA00E11A42 /* main.m in Sources */,
+				5BC1F1F1189960DC00E11A42 /* UIImage+raxxFaceDetection.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

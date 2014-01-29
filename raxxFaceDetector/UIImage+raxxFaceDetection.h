@@ -10,4 +10,6 @@
 
 @interface UIImage (raxxFaceDetection)
 
+- (UIView*)markFaces:(UIImageView *)image; 
+
 @end
