@@ -14,6 +14,8 @@
 @interface ViewController ()
 
 @property (nonatomic, strong) UIImageView* imageView;
+@property (nonatomic, strong) UIView* markedAreasView;
+@property (nonatomic, assign) BOOL isHighlightedState;
 
 @end
 
@@ -29,8 +31,10 @@
 	};
 	[self.view addSubview:self.imageView];
 	
+	self.markedAreasView = [[UIView alloc] init];
+	
 	UIBarButtonItem *bbi = [[UIBarButtonItem alloc]
-							initWithTitle:@"Find Faces" style:UIBarButtonItemStyleBordered target:self action:@selector(markFaces:)];
+							initWithTitle:@"Mark Faces" style:UIBarButtonItemStyleBordered target:self action:@selector(markFaces:)];
 	[[self navigationItem] setRightBarButtonItem:bbi];
 	UIBarButtonItem *leftButton =[[UIBarButtonItem alloc]
 								  initWithTitle:@"Pick Image" style:UIBarButtonItemStyleBordered target:self action:@selector(selectImage:)];
@@ -40,8 +44,17 @@
 }
 
 - (void)markFaces:(id)sender {
-	UIView* markedAreasView = [self.imageView.image markFaces:self.imageView];
-	[self.view addSubview:markedAreasView];
+	
+	if (!self.isHighlightedState) {
+		self.markedAreasView = [self.imageView.image markFaces:self.imageView];
+		[self.view addSubview:self.markedAreasView];
+		self.isHighlightedState = YES;
+	} else {
+		[self.markedAreasView removeFromSuperview];
+		self.isHighlightedState = NO;
+	}
+	
+
 }
 
 - (void)selectImage:(id)sender {
